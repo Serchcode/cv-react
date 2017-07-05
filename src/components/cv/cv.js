@@ -33,7 +33,7 @@ class CV extends Component{
 			</Grid.Column>
 			</Grid.Row>
 			</Grid>
-			<Divider horizontal inverted>Frontend Frameworks</Divider>
+			<Divider horizontal inverted>Frameworks</Divider>
 			<Grid centered>
 			<Grid.Row>
 			<Grid.Column mobile={12} tablet={4} computer={4} centered>
@@ -47,7 +47,7 @@ class CV extends Component{
 			</Grid.Column>
 			</Grid.Row>
 			</Grid>
-			<Divider horizontal inverted>Cloud Services</Divider>
+			<Divider horizontal inverted>Cloud Services & Servers</Divider>
 			<Grid centered>
 			<Grid.Row>
 			<Grid.Column mobile={12} tablet={4} computer={4} centered>
