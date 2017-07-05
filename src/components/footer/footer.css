@@ -1,0 +1,17 @@
+.futer{
+	background-color: black;
+	width: 100%;
+	height: 10vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ico{
+	color: white;
+	margin-right: 2%;
+}
+
+.Hack{
+	background-color: black;
+}

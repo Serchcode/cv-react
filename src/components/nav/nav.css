@@ -1,0 +1,5 @@
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    background: #000000;
+    color: rgba(255,255,255,.9);
+    margin: 0;
+}

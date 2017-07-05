@@ -1,0 +1,39 @@
+.imagen{
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  margin-bottom: 1%;
+}
+
+.well{
+	color: white;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+.sub{
+	color: white;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.sub2{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+
+.hello{
+	border: solid 4px white;
+	border-radius: 8px;
+}
+
+row{
+	width: 300px;
+	height: 300px;
+}
+
+.seccion{
+	background-color: #3F51B5;
+}
