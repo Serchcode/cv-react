@@ -5,7 +5,7 @@ import fotito from '../../assets/fotito.jpg';
 import cb from '../../assets/cb.png';
 import uaeh from '../../assets/ua.png'
 import './Home.css';
-import { Grid } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react';
 
 
 class Home extends Component{
@@ -34,8 +34,7 @@ class Home extends Component{
 			<Grid.Row>
 			<Grid.Column mobile={12} tablet={8} computer={8}>
 			<p className="sub2">Center of Technological and Industrial Bachelor's Degree No. 222</p>
-			<p>
-			My baccalaureate studies at the Center for Industrial Technology and Services No. 
+         	<p>My baccalaureate studies at the Center for Industrial Technology and Services No. 
 			222 where he chooses the specialty of Programming.</p>
 			</Grid.Column>
 			<Grid.Column mobile={12} tablet={8} computer={8}>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Menucv from './components/nav/nav';
-import Home from './components/home/Home';
 import Footer from './components/footer/footer';
+import Routes from './routes';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Menucv/>
-      	<Home/>
+      	<Routes/>
       	<Footer/>
       </div>
     );

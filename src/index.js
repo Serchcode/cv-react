@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 import firebase from 'firebase';
+import {BrowserRouter} from 'react-router-dom';
 
 
  firebase.initializeApp({
@@ -15,6 +16,6 @@ import firebase from 'firebase';
 });
 
 ReactDOM.render(
-  <App />,
+  <BrowserRouter><App /></BrowserRouter>,
   document.getElementById('root'),
  );
