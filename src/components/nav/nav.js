@@ -9,7 +9,7 @@ class Menucv extends Component {
   componentDidMount(){
 
   }
-  state = { activeItem: 'home' }
+  state = { activeItem: 'Home' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -27,6 +27,9 @@ class Menucv extends Component {
           </Link>
           <Link to={"/resume"}>
           <Menu.Item name='Resume' active={activeItem === 'Resume'} onClick={this.handleItemClick} />
+          </Link>
+          <Link to={"/contact"}>
+          <Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick} />
           </Link>
         </Menu>
       </Segment>

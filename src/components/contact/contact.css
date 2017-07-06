@@ -1,0 +1,17 @@
+.pb{
+	border:solid 2px white;
+	border-radius: 10px;
+	text-align: left;
+	width: 50%;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+.ic{
+	margin-left: 5%;
+}
+
+.cont{
+	padding-bottom: 5%;
+}
