@@ -25,7 +25,9 @@ class Menucv extends Component {
           <Link to={"/curriculum"}>
           <Menu.Item name='Skills' active={activeItem === 'Skills'} onClick={this.handleItemClick} />
           </Link>
-          <Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick} />
+          <Link to={"/resume"}>
+          <Menu.Item name='Resume' active={activeItem === 'Resume'} onClick={this.handleItemClick} />
+          </Link>
         </Menu>
       </Segment>
     )

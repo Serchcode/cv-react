@@ -10,6 +10,9 @@ import laravel from '../../assets/laravel.png';
 import aws from '../../assets/aws.png';
 import nginx from '../../assets/ng.png';
 import fire from '../../assets/Firebase.png';
+import postgres from '../../assets/po.png';
+import mysql from '../../assets/my.png';
+import server from '../../assets/se.png';
 import './cv.css';
 import { Grid } from 'semantic-ui-react';
 
@@ -58,6 +61,20 @@ class CV extends Component{
 			</Grid.Column>
 			<Grid.Column mobile={12} tablet={4} computer={4} centered>
 			<Image className="down" src={aws}/>
+			</Grid.Column>
+			</Grid.Row>
+			</Grid>
+			<Divider horizontal inverted>Dbms</Divider>
+			<Grid centered>
+			<Grid.Row>
+			<Grid.Column mobile={12} tablet={4} computer={4} centered>
+			<Image className="down" src={postgres}/>
+			</Grid.Column>
+			<Grid.Column mobile={12} tablet={4} computer={4} centered>
+			<Image className="down"  src={mysql}/>
+			</Grid.Column>
+			<Grid.Column mobile={12} tablet={4} computer={4} centered>
+			<Image className="down" src={server}/>
 			</Grid.Column>
 			</Grid.Row>
 			</Grid>
