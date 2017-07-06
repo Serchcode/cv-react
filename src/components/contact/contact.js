@@ -5,9 +5,8 @@ import './contact.css';
 class Contact extends Component{
 	render(){
 		return(
-			<div className="cont">
-			<center>
-			<Container>
+			<div>
+			<Container textAlign='center'>
 			<p className="well">Contact</p>
 			<p className="pb">
 				<i className="fa fa-address-card fa-5x ico ic" aria-hidden="true"></i><br/>
@@ -17,7 +16,6 @@ class Contact extends Component{
 				E-mail (alternative): cecpj@hotmail.com<br/>	
 			</p>
 			</Container>
-			</center>
 			</div>
 			);
 	}
