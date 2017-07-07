@@ -14,3 +14,18 @@ canvas{
 	z-index: -1;
 }
 
+.color{
+	background-color: #30332E;
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    background: #000000;
+    color: rgba(255,255,255,.9);
+    margin: 0;
+}
+
+.ui.inverted.menu {
+    border: 0 solid transparent;
+    background: black;
+    box-shadow: none;
+}

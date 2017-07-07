@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Segment } from 'semantic-ui-react';
+import { Menu, Segment, Sidebar} from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
 import './nav.css';
 
@@ -18,6 +18,8 @@ class Menucv extends Component {
 
     return (
       <Segment inverted>
+        <Sidebar.Pushable as={Segment}>
+         <Sidebar.Pusher>
         <Menu inverted pointing secondary>
           <Link to={"/"}>
           <Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick} />
@@ -32,6 +34,8 @@ class Menucv extends Component {
           <Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick} />
           </Link>
         </Menu>
+         </Sidebar.Pusher>
+        </Sidebar.Pushable>
       </Segment>
     )
   }
