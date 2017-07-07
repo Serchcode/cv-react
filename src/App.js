@@ -3,12 +3,15 @@ import Menucv from './components/nav/nav';
 import Footer from './components/footer/footer';
 import Routes from './routes';
 import './App.css';
+import Particles from 'react-particles-js';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App">      
         <Menucv/>
+        <Particles/>        
       	<Routes/>
       	<Footer/>
       </div>

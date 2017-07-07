@@ -6,6 +6,7 @@ import firebase from 'firebase';
 import {BrowserRouter} from 'react-router-dom';
 
 
+
  firebase.initializeApp({
     apiKey: "AIzaSyDSmuw7ZAad1q8hpFEDkMvAW3PxDDOnQAo",
     authDomain: "curriculum-sergio-perez.firebaseapp.com",
@@ -15,7 +16,7 @@ import {BrowserRouter} from 'react-router-dom';
     messagingSenderId: "739294517115"
 });
 
-ReactDOM.render(
+ReactDOM.render( 	
   <BrowserRouter><App /></BrowserRouter>,
   document.getElementById('root'),
  );
