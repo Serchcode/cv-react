@@ -1,0 +1,36 @@
+[debug] [2019-03-05T18:12:17.908Z] ----------------------------------------------------------------------
+[debug] [2019-03-05T18:12:17.913Z] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-03-05T18:12:17.914Z] CLI Version:  3.9.1
+[debug] [2019-03-05T18:12:17.914Z] Platform:     linux
+[debug] [2019-03-05T18:12:17.914Z] Node Version: v9.0.0
+[debug] [2019-03-05T18:12:17.914Z] Time:         Tue Mar 05 2019 12:12:17 GMT-0600 (CST)
+[debug] [2019-03-05T18:12:17.914Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-05T18:12:17.932Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-05T18:12:17.933Z] > authorizing via signed-in user
+[debug] [2019-03-05T18:12:17.935Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-03-05T18:12:17.936Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/e0cb_kF258Rq9iRgPBu9oetKfskVn5vqFsq7YpfOvUk',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Mar 05 2019 12:12:17 GMT-0600 (CST)
+[debug] [2019-03-05T18:12:18.266Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-05T18:12:18.372Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/curriculum-sergio-perez  
+ Tue Mar 05 2019 12:12:18 GMT-0600 (CST)
+[debug] [2019-03-05T18:12:18.903Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-05T18:12:18.905Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/curriculum-sergio-perez/tokens  
+ Tue Mar 05 2019 12:12:18 GMT-0600 (CST)
+[debug] [2019-03-05T18:12:19.503Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'curriculum-sergio-perez'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing build directory for upload...
+[debug] [2019-03-05T18:12:21.962Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/curriculum-sergio-perez/uploads/-L_E2b-mPtbQqrnrlUdM?fileCount=21&message=  
+ Tue Mar 05 2019 12:12:21 GMT-0600 (CST)
+[debug] [2019-03-05T18:13:04.956Z] <<< HTTP RESPONSE 410
+[debug] [2019-03-05T18:13:04.957Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2019-03-05T18:13:04.960Z] TypeError: Cannot read property 'error' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
