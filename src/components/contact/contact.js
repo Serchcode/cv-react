@@ -10,10 +10,10 @@ class Contact extends Component{
 			<p className="well">Contact</p>
 			<p className="pb">
 				<i className="fa fa-address-card fa-5x ico ic" aria-hidden="true"></i><br/>
-				Phone: 7751344187<br/>
-				E-mail: pe280591@uaeh.edu.mx<br/>
-				Phone (alternative): 5537137756<br/>
-				E-mail (alternative): cecpj@hotmail.com<br/>	
+				Phone: 7711056030<br/>
+				E-mail: perez.sergiob@gmail.com<br/>
+				Phone (alternative): 5527446157<br/>
+				E-mail (alternative): serchcode@gmail.com<br/>	
 			</p>
 			</Container>
 			</div>

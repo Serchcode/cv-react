@@ -11,38 +11,42 @@ class Resume extends Component{
 			<Divider horizontal inverted><h2><i className="fa fa-graduation-cap ico" aria-hidden="true"></i>Academic Training</h2></Divider>
 			<p className="res">
 			<strong>Year: 2012-2016</strong> <br/>
-			Institution: Autonomous University of the State of Hidalgo<br/>
-			<strong>Year: 2009 -2012</strong><br/>
-			Institution: Center of Technological and Industrial Bachelor of Services No. 222.<br/>
-			<strong>Year: 2006 - 2009</strong><br/>
-			Institution: General Secondary School Number 4<br/>
+			Computer Systems (Autonomous University of the State of Hidalgo)<br/>
 			</p>
-			<Divider horizontal inverted><h2><i className="fa fa-certificate ico" aria-hidden="true"></i>Diplomas</h2></Divider>
+			<Divider horizontal inverted><h2><i className="fa fa-certificate ico" aria-hidden="true"></i>Professional resume</h2></Divider>
 			<p className="res">
-			<ul>
-			<li>Award to the first place for the creation of a web app to report lost or street dogs in the event "Hackupp" carried out in the Polytechnic University of Pachuca gaining the category of social responsibility.</li>
-			<li>Award for the participation in the workshop of introduction to the programming language Python imparted by the company fixtergeek.</li>
-			<li>Award by the organization of the "SG virtual conference" at the Autonomous University of the state of Hidalgo.</li>
-			<li>Certificate in web application development using the Python programming language using the Django framework issued by fixtergeek.</li>
-			<li>Certificate in web application development with the JavaScript programming language using the framework React.js issued by the firm fixtergeek.</li>
-			</ul>
+			Before concluding my university education I started in the field of software development,
+			beginning in 2016 joining "Provisión", a company in which I collaborated as an analyst and
+			programmer of your platforms, easy terrain and sell it easy. After a year I joined one
+			software development company "Team developers" supporting the analysis and development of
+			web platforms that support processes for the Government of the state of Hidalgo. In 2018
+			I started as a backend and frontend developer for "Iupick", a startup based in CDMX
+			specialized in logistics for ecommerce platforms.
 			</p>
 			<Divider horizontal inverted><h2><i className="fa fa-user-secret ico" aria-hidden="true"></i>Work Experience</h2></Divider>
 			<p className="res">	
 			<strong>		
+			backend - frontend Developer<br/>
+			April 2018 - Current<br/>
+			Iupick - CDMX<br/>
+			</strong>
+			Development python backend for iupick administration panel, creation development and API maintenance and service implementation of the main carriers (fedex,
+			dhl, Estafeta), frontend development javascript logistics map for ecommerce implemented on various platforms (shopify, magento, woocommerce).<br/>
+			<strong>		
 			Systems Analyst and Programmer<br/>
-			September 2016 - May 2017<br/>
+			March 2017 - April 2018<br/>
+			Team Developers - Pachuca Hgo.<br/>
+			</strong>			
+			Development and analysis of different projects among which stand out: CRM for the Institute
+			Hidalguense de Competitividad Empresarial (IHCE) and CRM for the Escuela Normal del Valle del
+			Mezquital.<br/>
+			<strong>		
+			Systems Analyst and Programmer<br/>
+			March 2016 - February 2017<br/>
 			Provision -CDMX<br/>
 			</strong>
 			Developed a platform called Easy Terrain where people who want to acquire a land register, this platform improved the contact of the company with the customers giving a CRM experience, the system was developed with the 
 			Python programming language and the Django development framework Supporting the data in a database in postgresql.<br/>
-			<strong>			
-			Analyst Programmer (Social Service)<br/>
-			January 2016 - June 2016<br/>
-			University of Football and Sports Science - Pachuca<br/>
-			</strong>
-			Develop a system for the functional areas of the company, this system increased the ability to resolve internal incidents in the company, the system had a web environment in which the incidents in question are registered to equipment of Ti, these incidents were received and Views in the system to be supported by the corresponding employee, 
-			the system was developed using the php programming language, using the Sql Server database manager to contain all system data.
 			</p>
 			<Divider horizontal inverted><h2><i className="fa fa-cogs ico" aria-hidden="true"></i>Technical Skills</h2></Divider>
 			 <Table inverted>
@@ -61,7 +65,7 @@ class Resume extends Component{
 		        </Table.Row>
 		         <Table.Row>
 		         <Table.Cell>Web Frameworks:</Table.Cell>
-		         <Table.Cell>Knowledge in Django, React, Laravel</Table.Cell>
+		         <Table.Cell>Knowledge in Django, React, Laravel, Odoo</Table.Cell>
 		        </Table.Row>
 		        <Table.Row>
 		         <Table.Cell>Cloud Service Management:</Table.Cell>
